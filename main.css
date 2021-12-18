@@ -102,6 +102,12 @@ body {
     font-size: 32px;
 }
 
+.alignItems {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
 .columnize {
     display: flex;
     flex-flow: column;
@@ -110,19 +116,13 @@ body {
 }
 
 .infoTextAlign {
-    width: 150px;
+    width: 160px;
     text-align: center;
     color: #273344;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.alignItems {
-    display: flex;
-    justify-content: center;
-    gap: 46px;
-}
-
-.imageStandin {
+.infoImage {
     width: 150px;
     height: 150px;
     border: 4px outset rgb(65, 48, 221);
